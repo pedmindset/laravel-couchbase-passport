@@ -1,5 +1,5 @@
 {
-    "name": "Pedmindset/laravel-couchbase-passport",
+    "name": "pedmindset/laravel-couchbase-passport",
     "description": "A package to allow laravel/passport use with pedmindset/laravel-couchbase",
     "homepage": "https://github.com/pedmindset/laravel-couchbase-passport",
     "license": "MIT",
