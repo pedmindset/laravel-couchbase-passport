@@ -1,38 +1,38 @@
 {
-    "name": "designmynight/laravel-mongodb-passport",
-    "description": "A package to allow laravel/passport use with jenssegers/laravel-mongodb",
-    "homepage": "https://github.com/designmynight/laravel-mongodb-passport",
+    "name": "designmynight/laravel-couchbase-passport",
+    "description": "A package to allow laravel/passport use with pedmindset/laravel-couchbase",
+    "homepage": "https://github.com/pedmindset/laravel-couchbase-passport",
     "license": "MIT",
     "keywords": [
         "laravel",
-        "laravel-mongodb",
-        "laravel-mongodb-passport",
+        "laravel-couchbase",
+        "laravel-couchbase-passport",
         "laravel-passport",
-        "mongodb",
+        "couchbase",
         "passport",
-        "designmynight"
+        "pedmindset"
     ],
     "require": {
         "illuminate/support": "^5.5",
-        "jenssegers/mongodb": "3.3.* || 3.4.*",
+        "pedmindset/couchbase": "dev-master",
         "laravel/passport": "4.0.* || 5.0.* || 6.0.* || 7.0.*"
     },
     "autoload": {
         "psr-4": {
-            "DesignMyNight\\Mongodb\\": "src"
+            "Pedmindset\\Couchbase\\": "src"
         }
     },
     "authors": [
         {
-            "name": "Steve Porter",
-            "email": "steve@designmynight.com",
+            "name": "Emmnauel Oduro",
+            "email": "emmarthurson@gmail.com",
             "role": "Developer"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "DesignMyNight\\Mongodb\\MongodbPassportServiceProvider"
+                "Pedmindset\\Couchbase\\CouchbasePassportServiceProvider"
             ]
         }
     }
