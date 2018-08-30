@@ -1,4 +1,4 @@
-Laravel MongoDB Passport
+Laravel Couchbase Passport
 ===============
 
 [![Latest Stable Version](http://img.shields.io/github/release/designmynight/laravel-mongodb-passport.svg)](https://packagist.org/packages/designmynight/laravel-mongodb-passport) [![Total Downloads](http://img.shields.io/packagist/dm/designmynight/laravel-mongodb-passport.svg)](https://packagist.org/packages/designmynight/laravel-mongodb-passport)
