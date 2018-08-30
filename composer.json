@@ -14,7 +14,7 @@
     ],
     "require": {
         "illuminate/support": "^5.5",
-        "pedmindset/couchbase": "dev-master",
+        "pedmindset/laravel-couchbase": "dev-master",
         "laravel/passport": "4.0.* || 5.0.* || 6.0.* || 7.0.*"
     },
     "autoload": {
