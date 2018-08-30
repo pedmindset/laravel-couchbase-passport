@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `laravel-mongodb-passport` will be documented in this file
+All notable changes to `laravel-couchbase-passport` will be documented in this file
 
 ## 1.1.4 - 2018-08-13
 - add support for passport 7

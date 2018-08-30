@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignMyNight\Mongodb\Passport;
+namespace Pedmindset\Couchbase\Passport;
 
-use Jenssegers\Mongodb\Eloquent\Model;
+use Mpociot\Couchbase\Eloquent\Model;
 
 class Token extends Model
 {
@@ -92,6 +92,7 @@ class Token extends Model
      * Determine if the token is missing a given scope.
      *
      * @param string $scope
+     * 
      * @return bool
      */
     public function cant($scope)

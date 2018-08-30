@@ -1,14 +1,14 @@
 <?php
 
-namespace DesignMyNight\Mongodb;
+namespace Pedmindset\Couchbase;
 
 use Illuminate\Support\ServiceProvider;
-use DesignMyNight\Mongodb\Passport\AuthCode;
-use DesignMyNight\Mongodb\Passport\Client;
-use DesignMyNight\Mongodb\Passport\PersonalAccessClient;
-use DesignMyNight\Mongodb\Passport\Token;
+use Pedmindset\Couchbase\Passport\AuthCode;
+use Pedmindset\Couchbase\Passport\Client;
+use Pedmindset\Couchbase\Passport\PersonalAccessClient;
+use Pedmindset\Couchbase\Passport\Token;
 
-class MongodbPassportServiceProvider extends ServiceProvider
+class CouchbasePassportServiceProvider extends ServiceProvider
 {
     public function register()
     {

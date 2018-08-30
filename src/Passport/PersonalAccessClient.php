@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignMyNight\Mongodb\Passport;
+namespace Pedmindset\Couchbase\Passport;
 
-use Jenssegers\Mongodb\Eloquent\Model;
+use Mpociot\Couchbase\Eloquent\Model;
 
 class PersonalAccessClient extends Model
 {
