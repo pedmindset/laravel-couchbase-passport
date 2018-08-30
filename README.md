@@ -3,7 +3,7 @@ Laravel Couchbase Passport
 
 [![Latest Stable Version](http://img.shields.io/github/release/designmynight/laravel-mongodb-passport.svg)](https://packagist.org/packages/pedmindset/laravel-couchbase-passport)
 
-A service provider to add support for [Laravel Passport](https://github.com/laravel/passport) and [MongoDB](https://github.com/pedmindset/laravel-couchbase).
+A service provider to add support for [Laravel Passport](https://github.com/laravel/passport) and [Couchbase](https://github.com/pedmindset/laravel-couchbase).
 
 Table of contents
 -----------------
