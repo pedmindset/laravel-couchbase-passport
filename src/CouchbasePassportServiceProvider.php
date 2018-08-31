@@ -7,6 +7,10 @@ use Pedmindset\Couchbase\Passport\AuthCode;
 use Pedmindset\Couchbase\Passport\Client;
 use Pedmindset\Couchbase\Passport\PersonalAccessClient;
 use Pedmindset\Couchbase\Passport\Token;
+use Pedmindset\Couchbase\Passport\TokenRepository;
+use Pedmindset\Couchbase\Passport\RefreshTokenRepository;
+
+
 
 class CouchbasePassportServiceProvider extends ServiceProvider
 {
@@ -21,11 +25,18 @@ class CouchbasePassportServiceProvider extends ServiceProvider
             $loader->alias('Laravel\Passport\Client', Client::class);
             $loader->alias('Laravel\Passport\PersonalAccessClient', PersonalAccessClient::class);
             $loader->alias('Laravel\Passport\Token', Token::class);
+            $loader->alias('Laravel\Passport\TokenRepository', TokenRepository::class);
+            $loader->alias('Laravel\Passport\Bridge\RefreshTokenRepository', RefreshTokenRepository::class);
+
         } else {
             class_alias('Laravel\Passport\AuthCode', AuthCode::class);
             class_alias('Laravel\Passport\Client', Client::class);
             class_alias('Laravel\Passport\PersonalAccessClient', PersonalAccessClient::class);
             class_alias('Laravel\Passport\Token', Token::class);
+            class_alias('Laravel\Passport\TokenRepository', TokenRepository::class);
+            class_alias('Laravel\Passport\Bridge\RefreshTokenRepository', RefreshTokenRepository::class);
+
+
         }
     }
 }
