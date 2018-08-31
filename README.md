@@ -53,4 +53,4 @@ For usage with [Lumen](http://lumen.laravel.com), add the service provider in `b
 $app->register(Pedmindset\Couchbase\CouchbasePassportServiceProvider::class);
 ```
 
-The service provider will overide the default laravel passport models in order to use mongodb's implementation of eloquent. There is no need to register any additional classes or add any additional configuration other than those outlined in [Laravel Passport](https://github.com/laravel/passport) and [MongoDB](https://github.com/pedmindset/laravel-couchbase).
+The service provider will overide the default laravel passport models in order to use mongodb's implementation of eloquent. There is no need to register any additional classes or add any additional configuration other than those outlined in [Laravel Passport](https://github.com/laravel/passport) and [Couchbase Laravel Package](https://github.com/pedmindset/laravel-couchbase).
